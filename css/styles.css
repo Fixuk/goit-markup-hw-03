@@ -164,8 +164,8 @@ h3,
   text-decoration: none;
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
 
@@ -228,7 +228,6 @@ h3,
 .about-list {
   display: flex;
   gap: 24px;
-  padding: 120px 0;
   align-items: center;
 }
 

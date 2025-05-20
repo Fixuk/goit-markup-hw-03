@@ -246,13 +246,14 @@ h3,
   background-color: #f4f4fd;
 }
 
-.conteiner-team {
+.team-container {
   padding: 32px 0;
 }
 
 .team-item {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .team-title {

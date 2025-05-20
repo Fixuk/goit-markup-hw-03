@@ -37,6 +37,10 @@ a {
   margin: 0 auto;
 }
 
+.section {
+  padding: 120px 0;
+}
+
 /* ================== TYPOGRAPHY ================== */
 
 h2 {
@@ -166,8 +170,6 @@ h3,
 .hero-section {
   background-color: #2e2f42;
   display: flex;
-  padding-top: 168px;
-  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -242,10 +244,45 @@ h3,
   background-color: #ffffff;
 }
 
+.team-title {
+  padding: 120px 0;
+}
+
+.team-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border-radius: 0 0 4px 4px;
+  padding-bottom: 120px;
+}
+
+.team-item-subtitle {
+  display: block;
+  padding: 32px 16px;
+  text-align: center;
+}
+
+.our-team-title {
+  margin-bottom: 8px;
+}
 /* ================== PORTFOLIO SECTION ================== */
 
 .portfolio {
-  /* можно добавить стили при необходимости */
+  pad: 120px 0;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio-caption {
+  padding: 32px 16px;
+  text-align: left;
+  border: 1px solid #e7e9fc;
 }
 
 /* ================== FOOTER ================== */

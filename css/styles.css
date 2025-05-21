@@ -246,6 +246,7 @@ h3,
 }
 
 .team-container {
+  padding: 32px 0;
 }
 
 .team-item {
@@ -268,7 +269,7 @@ h3,
 
 .team-item-subtitle {
   display: block;
-  padding: 32px 16px;
+  padding: 32px 0;
   text-align: center;
 }
 

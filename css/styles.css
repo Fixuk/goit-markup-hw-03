@@ -317,13 +317,13 @@ h3,
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-top: 16px;
+  /* margin-top: 16px; */
   max-width: 264px;
 }
 
 .footer-logo {
   display: inline-block;
-  /* margin-bottom: 16px; */
+  margin-bottom: 16px;
 }
 
 .footer-logo-text {
